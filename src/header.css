@@ -1,0 +1,25 @@
+.top {
+  display: flex;
+  justify-content: center;                   
+  align-items: center;
+  height: 100%;
+  background-color: #f3fc42;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.site-name {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
