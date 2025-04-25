@@ -14,8 +14,14 @@ export function MainContent({ searchparams }: MainContentProps) {
 
     const [lyrics, setLyrics] = useState(' ここに検索結果が表示されます。');
 
+    const searchParams = [
+        "検索条件",
+        `曲名：${title}`,
+        `アーティスト：${artist}`
+    ];
+
     const handleSearch = () => {
-        alert('検索条件:' + { title, artist });
+        alert(searchParams.join('\n'));
     };
 
     const handleCopy = () => {

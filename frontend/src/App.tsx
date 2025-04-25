@@ -3,7 +3,7 @@ import {Header} from './Header';
 import {MainContent} from './MainContent';
 import './app.css';
 
-function SearchLyrics() {
+function App() {
   const header = {
     title: "Search Lyrics"
   }
@@ -24,4 +24,4 @@ function SearchLyrics() {
   );
 }
 
-export default SearchLyrics;
+export default App;
